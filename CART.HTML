@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attire</title>
+    <script src="https://kit.fontawesome.com/16a097ab5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CART.CSS" />
+    <script src="CART.JS" defer></script>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="left-side">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <div id="left-manu">
+          <ul>
+            <li><a href="">Ledies</a><i class="fa-solid fa-arrow-right"></i></li>
+            <li><a href="">Men><i class="fa-solid fa-arrow-right"></i></li>
+            <li><a href="">Baby</a><i class="fa-solid fa-arrow-right"></i></li>
+            <li><a href="">Kids</a><i class="fa-solid fa-arrow-right"></i></li>
+            <li><a href="">Shoes</a><i class="fa-solid fa-arrow-right"></i></li>
+            <li><a href="">Sale</a><i class="fa-solid fa-arrow-right"></i></li>
+          </ul>
+        </div>
+      </div>
+
+
+      
+      <div class="logo">
+        <img
+        id="logo"
+      src="https://see.fontimg.com/api/rf5/1jYZe/ZmNlYjVmNzdiOTczNDE5NmEyNTYxY2NmY2Q3MWZjODUub3Rm/QVRUSVJF/pena-hitam.png?r=fs&h=88&w=1354&fg=BA3B3B&bg=FFFFFF&tb=1&s=65" alt="Script fonts">
+      
+      </div>
+
+      
+
+
+      <div class="toggles">
+        <div class="toggle-box">
+          <a href="">HOME</a>
+          <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="toggle-box">
+          <a href="">SIGN UP</a>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      <div class="toggle-box">
+        <a href="#" >CART</a>
+        <i class="fa-solid fa-cart-shopping" id="cart-btn"></i>
+      </div>
+  
+    </div>
+
+        <div id="cart-area">
+          
+            <div class="cart-nav"> 
+              <div class="cart-header">
+                <i class="fa-solid fa-arrow-right" id="backB"></i>
+                <h1 id="cart-title">Your Cart</h1>
+              </div>
+            </div>
+        <ul id="product-cart"></ul>
+      
+          </div>
+      </div>
+    </div>
+    <!-- category-area -->
+   <div class="cate-area">
+<div class="cate-bar">
+  <a href="#">Ledies</a>
+  <a href="#">Men</a>
+  <a href="#">Baby</a>
+  <a href="#">Kids</a>
+  <a href="#">Bags</a>
+  <a href="#">winter</a>
+  <a href="#">Footwere</a>
+  <a href="#">Sale</a>
+</div>
+   </div>
+
+   <!-- display-area -->
+
+
+   <div class="display-area">
+    <div class="display-title">
+      <h1 > TRENDING OUTFITS....</h1>
+    </div>
+    
+    <div class="display">
+      <img  class="slide"  src="TRENDING!/trend  (1).jpg" alt="">
+      <img  class="slide"  src="TRENDING!/trend  (2).jpg" alt="">
+      <img  class="slide"  src="TRENDING!/trend  (3).jpg" alt="">
+      <img  class="slide"  src="TRENDING!/trend  (4).jpg" alt="">
+      <img  class="slide"  src="TRENDING!/trend  (2).jpg" alt="">
+    </div>
+
+   </div>
+    <div class="cataloge"> 
+        
+        <div class="shop"> <h1 id="head">Shop Product</h1>
+          </div>
+
+            <div class="shop-content">
+                <div class="product"><img id="product" src="PRODUCT!/product (1).jpg" alt="" srcset="">
+                    <div class="product-area">
+                        <h2 class="product-name">warm coat</h2>
+                        <span>$25</span>
+                       <img class="cart-btn" src="shopping-bag.png" onclick="addToCart()" alt=""srcset="">
+                    </div>
+                </div>
+                <div class="product"><img  id="product" src="PRODUCT!/product (2).jpg" alt="" srcset="">
+                    <h2 class="product-name">jacket</h2>
+                    <span>$25</span>
+                    <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+                </div>
+                <div class="product"><img  id="product" src="PRODUCT!/product (3).jpg" alt="" srcset="">
+                    <h2 class="product-name">track Suit</h2>
+                    <span>$25</span>
+                    <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+                </div>
+                <div class="product"><img  id="product" src="PRODUCT!/product (4).jpg" alt="" srcset="">
+                    <h2 class="product-name">winter</h2>
+                    <span>$25</span>
+                    <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+                </div>
+
+
+                <div class="product"><img id="product" src="PRODUCT!/product (17).jpg" alt="" srcset="">
+                  <div class="product-area">
+                      <h2 class="product-name">hoodie</h2>
+                      <span>$25</span>
+                     <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+                  </div>
+              </div>
+              <div class="product"><img  id="product" src="PRODUCT!/product (5).jpg" alt="" srcset="">
+                  <h2 class="product-name">Sweat Shirt</h2>
+                  <span>$25</span>
+                  <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+              </div>
+              <div class="product"><img  id="product" src="PRODUCT!/product (6).jpg" alt="" srcset="">
+                  <h2 class="product-name">Accessories</h2>
+                  <span>$25</span>
+                  <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+              </div>
+              <div class="product"><img  id="product" src="PRODUCT!/product (7).jpg" alt="" srcset="">
+                  <h2 class="product-name">thermals</h2>
+                  <span>$25</span>
+                  <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+              </div>
+
+
+
+              <div class="product"><img id="product" src="PRODUCT!/product (8).jpg" alt="" srcset="">
+                <div class="product-area">
+                    <h2 class="product-name">nike shoes</h2>
+                    <span>$25</span>
+                   <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+                </div>
+            </div>
+            <div class="product"><img  id="product" src="PRODUCT!/product (9).jpg" alt="" srcset="">
+                <h2 class="product-name">Summer top</h2>
+                <span>$25</span>
+                <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+            </div>
+            <div class="product"><img  id="product" src="PRODUCT!/product (10).jpg" alt="" srcset="">
+                <h2 class="product-name">coat</h2>
+                <span>$25</span>
+                <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+            </div>
+            <div class="product"><img  id="product" src="PRODUCT!/product (11).jpg" alt="" srcset="">
+                <h2 class="product-name">warm top</h2>
+                <span>$25</span>
+                <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+            </div>
+
+
+            <div class="product"><img id="product" src="PRODUCT!/product (12).jpg" alt="" srcset="">
+              <div class="product-area">
+                  <h2 class="product-name">black sweater</h2>
+                  <span>$25</span>
+                 <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+              </div>
+          </div>
+          <div class="product"><img  id="product" src="PRODUCT!/product (13).jpg" alt="" srcset="">
+              <h2 class="product-name">jump suit</h2>
+              <span>$25</span>
+              <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+          </div>
+          <div class="product"><img  id="product" src="PRODUCT!/product (14).jpg" alt="" srcset="">
+              <h2 class="product-name">summer top</h2>
+              <span>$25</span>
+              <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+          </div>
+          <div class="product"><img  id="product" src="PRODUCT!/product (15).jpg" alt="" srcset="">
+              <h2 class="product-name">white shirt</h2>
+              <span>$25</span>
+              <img class="cart-btn" src="shopping-bag.png" alt=""srcset="">
+          </div>      
+        </div>
+       
+    </div>
+
+    <footer>
+      <div class="foot-area">
+
+     
+      <div class="foot-one">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+
+        </ul>
+      </div>
+      <div class="foot-one">
+        <h5>Corporate Info</h5>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          
+        </ul>
+ 
+      </div>
+      <div class="foot-one">
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          
+        </ul>
+      </div>
+      <div class="foot-one">
+       <p id="about-1" >Sign up now and be the first to know about exclusive offers, latest fashion news & style tips!
+
+       </p>
+        </ul>
+      </div>
+    </div>
+    <p id="about" >The content of this site is copyright-protected and is the property of Attire AB.</p>
+
+<div class="foot-logo"> 
+  <img id="foot-logo"
+  src="https://see.fontimg.com/api/rf5/1jYZe/ZmNlYjVmNzdiOTczNDE5NmEyNTYxY2NmY2Q3MWZjODUub3Rm/QVRUSVJF/pena-hitam.png?r=fs&h=88&w=1354&fg=BA3B3B&bg=FFFFFF&tb=1&s=65" 
+  alt="Script fonts">
+
+  <h2 id="my">Made By Harshit......</h2>
+ 
+</div>
+
+    </footer>
+   
+  </body>
+
+  <!-- <a href="https://www.fontspace.com/category/jersey"><img src="https://see.fontimg.com/api/rf5/K7gnA/MzRiNTYwYTkxYjRhNGU1MjllZGI1MjI4YzY2ZGIzZDQub3Rm/QVRUSVJF/jurasick.png?r=fs&h=88&w=1354&fg=000000&bg=FFFFFF&tb=1&s=65" alt="Jersey fonts"></a> -->
+</html>
